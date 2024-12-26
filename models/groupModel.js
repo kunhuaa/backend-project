@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-// 定义小组数据模型
 const groupSchema = new mongoose.Schema({
   groupId: { type: String, required: true },
   groupName: { type: String, required: true },
